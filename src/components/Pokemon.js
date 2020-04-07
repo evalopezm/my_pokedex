@@ -9,7 +9,7 @@ const Pokemon = (props) => {
 
   return (
     <li key={props.pokemon.id}>
-      <img url="{props.pokemon.url}" alt="" />
+      <img src={props.pokemon.url} alt="" />
       <h2>{props.pokemon.name}</h2>
       <h3>{pokemonTypes}</h3>
     </li>

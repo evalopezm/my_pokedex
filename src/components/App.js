@@ -6,7 +6,7 @@ import PokeList from "../components/PokeList";
 function App() {
   return (
     <>
-      <h2>Mi lista de pokemon</h2>
+      <h2 className="title">Mi lista de pokemon</h2>
       <PokeList pokemonArray={pokemonArray} />
     </>
   );

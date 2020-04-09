@@ -1,15 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 import "../stylesheets/App.css";
 import pokemonArray from "../pokemonArray";
 import PokeList from "../components/PokeList";
 
-function App() {
+const App = () => {
+  const [pokemons] = useState(pokemonArray);
   return (
     <>
       <h2 className="title">Mi lista de pokemon</h2>
-      <PokeList pokemonArray={pokemonArray} />
+      <PokeList pokemonArray={pokemons} />
     </>
   );
-}
+};
 
 export default App;

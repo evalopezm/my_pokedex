@@ -1,0 +1,10 @@
+.footer {
+  height: 50px;
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: end;
+  padding-right: 20px;
+  padding-top: 10px;
+}

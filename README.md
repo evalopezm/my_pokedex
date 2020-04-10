@@ -1,4 +1,4 @@
-#Pokedex
+# Pokedex
 
 Es un proyecto creado con React para la evaluació
 n intermedia del tercer mó

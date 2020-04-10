@@ -1,12 +1,8 @@
 # Pokedex
 
-Es un proyecto creado con React para la evaluació
-n intermedia del tercer mó
-dulo de Adalab.
+Es un proyecto creado con React para la evaluación intermedia del tercer módulo de Adalab.
 
-Está
- programado con React, estructurado por componentes, guardando el array en el estado, usando props y 
-métodos funcionales de array.
+Está programado con React, estructurado por componentes, guardando el array en el estado, usando props y métodos funcionales de array.
 
 ***
 

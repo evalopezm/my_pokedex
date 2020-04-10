@@ -6,8 +6,7 @@ dulo de Adalab.
 
 Está
  programado con React, estructurado por componentes, guardando el array en el estado, usando props y 
-mé
-todos funcionales de array.
+métodos funcionales de array.
 
 ***
 

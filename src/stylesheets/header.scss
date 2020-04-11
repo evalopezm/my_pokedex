@@ -1,0 +1,15 @@
+@import "./variables.scss";
+
+.header {
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+  font-size: 35px;
+  background-image: $main-background;
+  box-shadow: $main-shadow;
+
+  &-title {
+    text-shadow: 5px 5px 9px #fffbfb;
+  }
+}

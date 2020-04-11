@@ -3,12 +3,13 @@ import "../stylesheets/App.css";
 import pokemonArray from "../pokemonArray";
 import PokeList from "../components/PokeList";
 import Footer from "./footer";
+import Header from "./header";
 
 const App = () => {
   const [pokemons] = useState(pokemonArray);
   return (
     <>
-      <h2 className="title">Mi lista de pokemon</h2>
+      <Header />
       <PokeList pokemonArray={pokemons} />
       <Footer />
     </>

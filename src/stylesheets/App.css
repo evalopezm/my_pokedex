@@ -1,14 +1,4 @@
 * {
   margin: 0;
-}
-
-.title {
-  margin: 0;
-  margin-bottom: 30px;
-  padding-top: 20px;
-  padding-bottom: 40px;
-  text-align: center;
-  font-size: 35px;
-  background-image: linear-gradient(to bottom right, #e1f4f7, #80d3e0);
-  box-shadow: 3px 2px 13px #888888;
+  box-sizing: border-box;
 }

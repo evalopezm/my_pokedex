@@ -1,0 +1,38 @@
+@import "./variables.scss";
+
+.pokemon- {
+  &card {
+    background-image: $main-background;
+    width: 200px;
+    height: 250px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+    box-shadow: $main-shadow;
+
+    &-line {
+      height: 1px;
+      width: 90%;
+    }
+
+    &-name {
+      margin: 5px;
+    }
+
+    &-types-list {
+      padding: 0;
+      display: flex;
+
+      &-items {
+        list-style: none;
+        background-image: $btn-background;
+        padding: 5px 10px 5px 10px;
+        border-radius: 5px;
+        margin: 25px 15px 15px 15px;
+        box-shadow: 1px 1px 0px #888888;
+      }
+    }
+  }
+}

@@ -29,7 +29,6 @@
       "not dead",
       "not op_mini all"
     ],
-    "docs": "rm -rf docs && react-scripts build && mv build docs",
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",

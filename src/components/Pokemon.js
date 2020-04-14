@@ -1,9 +1,8 @@
 import React from "react";
 import "../stylesheets/pokemon.scss";
+import PropTypes from "prop-types";
 
 const Pokemon = (props) => {
-  console.log(props.pokemon.url);
-
   const pokemonTypes = props.pokemon.types.map((type, index) => {
     return (
       <li className="pokemon-card-types-list-items" key={index}>
@@ -13,7 +12,7 @@ const Pokemon = (props) => {
   });
 
   return (
-    <li className="pokemon-card" key={props.pokemon.id}>
+    <li className="pokemon-card">
       <img className="pokemon-card-img" src={props.pokemon.url} alt={props.pokemon.name} title={props.pokemon.name} />
       <hr className="pokemon-card-line"></hr>
       <h2 className="pokemon-card-name">{props.pokemon.name}</h2>
@@ -24,3 +23,6 @@ const Pokemon = (props) => {
 };
 
 export default Pokemon;
+Pokemon.propTypes = {
+  pokemon: PropTypes.object,
+};
